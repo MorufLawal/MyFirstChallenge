@@ -1,0 +1,84 @@
+/*Tag Selector*/
+
+body{
+ font-family: Outfit;
+ font-weight: 600;
+ text-align: center;
+ background-color: hsl(217, 54%, 11%);
+ 
+ 
+}
+h1{
+color: hsl(0, 0%, 100%);
+text-align: left;
+}
+h1:hover{
+ color:hsl(178, 100%, 50%);
+}
+p{
+color: hsl(215, 51%, 70%);
+text-align: left;
+}
+hr{
+border: none;
+border-top: 1px solid hsl(215, 32%, 27%) ;
+}
+a{
+ color: hsl(0, 0%, 100%);
+}
+
+/*Class Selector*/
+.whole{
+ background-color:hsl(216, 50%, 16%) ;
+ width: 320px;
+ margin: 100px auto;
+ border-radius: 10px;
+ padding: 20px;
+}
+.eqn{
+ width: 100%;
+ border-radius: 10px;
+}
+.eqn:hover{
+ background:url(/images/icon-view.svg);
+}
+.middle{
+display: flex;
+justify-content: space-between;
+}
+.eth{
+
+}
+.clock{
+ 
+}
+.bottom{
+ width: 80%;
+ padding: 40px;
+ text-align: left;
+}
+.avatar{
+ width: 10%;
+ 
+}
+.jules {
+ color:  hsl(0, 0%, 100%);
+}
+.jules:hover{
+ color: hsl(178, 100%, 50%);
+}
+.et{
+color: hsl(178, 100%, 50%);
+}
+.cl{
+color: hsl(215, 51%, 70%);
+}
+.bottom-span{
+ color: hsl(215, 51%, 70%);
+ position: relative;
+ bottom: 10px;
+}
+.heading5{
+ color:hsl(215, 51%, 70%) ;
+}
+
